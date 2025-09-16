@@ -1,5 +1,5 @@
 <script>
- 	const base = (process['env']['isProd']) ? '/shg' : ''
+ 	const base = (process['env']['isProd']) ? '' : ''
 </script>
 <div class="row d-flex h-100 justify-content-center" style="padding-top: 40px;">
     <div class="col-md-12 align-self-end">

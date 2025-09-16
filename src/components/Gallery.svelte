@@ -2,7 +2,7 @@
 	import Header from './Header.svelte';
 	import PageFrame from './PageFrame.svelte';
 	import Footer from './Footer.svelte';
- 	const base = (process['env']['isProd']) ? '/shg' : ''	
+ 	const base = (process['env']['isProd']) ? '' : ''	
 	const images = [
 		{
 			active: true,		

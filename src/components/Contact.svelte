@@ -2,7 +2,7 @@
 	import Header from './Header.svelte';
 	import PageFrame from './PageFrame.svelte';
 	import Footer from './Footer.svelte';
-  	const base = (process['env']['isProd']) ? '/shg' : ''
+  	const base = (process['env']['isProd']) ? '' : ''
 </script>
 
 <main class="container-fluid h-100 d-flex flex-column" style="background-image: url('{base+'/'}AdobeStock_85241054.jpeg'); background-size: cover; background-position: center center; background-repeat: no-repeat; overflow: hidden;">      

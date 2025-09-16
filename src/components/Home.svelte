@@ -1,7 +1,7 @@
 <script>
 	import Header from './Header.svelte';
 	import PageFrame from './PageFrame.svelte';
- 	const base = (process['env']['isProd']) ? '/shg' : ''
+ 	const base = (process['env']['isProd']) ? '' : ''
 </script>
 
 <main 	class="container-fluid h-100 d-flex flex-column" 
